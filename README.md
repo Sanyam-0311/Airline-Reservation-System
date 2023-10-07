@@ -1,6 +1,6 @@
 # Airline Reservation System
 
-Welcome to the Airline Reservation System project! This system allows users to book airline tickets and manage their reservations. The project is created by Sanyam Shah and Shreya Joshi.
+Welcome to the Airline Reservation System project! This system allows users to book airline tickets and manage their reservations. The project is created by Sanyam Shah.
 
 ## Introduction
 
