@@ -57,7 +57,7 @@ def new():
   if book=='Y' or book=='y':
     booking()
   else:
-    sys.exit('This is a project made by Sanyam Shah and Shreya Joshi \n '
+    sys.exit('This is a project made by Sanyam Shah\n '
              'Thank you !')
 
 
@@ -99,7 +99,7 @@ def passenger():
   if see_ticket=='Y' or see_ticket=='y':
     ticket()
   else:
-    sys.exit('This is a project made by Sanyam Shah and Shreya Joshi \n '
+    sys.exit('This is a project made by Sanyam Shah\n '
              'Thank you !!!')
 
 
@@ -137,7 +137,7 @@ def ticket():
   if can.lower()=='cancel':
     cancel()
   else:
-    sys.exit('This is a project made by Sanyam Shah and Shreya Joshi \n'
+    sys.exit('This is a project made by Sanyam Shah\n'
            'Thank you !!!')
 
   #sms()
@@ -166,7 +166,7 @@ def cancel():
       print('Thank you !')
 
     else:
-      sys.exit('This is a project made by Sanyam Shah and Shreya Joshi \n'
+      sys.exit('This is a project made by Sanyam Shah\n'
                'Thank you !!!')
 
 
@@ -196,10 +196,10 @@ def sms():
 
   mydb = mysql.connector.connect(host="localhost", user="root", password="Sanyam123", database="alr")
   mycursor = mydb.cursor()
-  account_sid = 'ACaa09698f7e6c933dc919c74a063d23f6'
-  auth_token = '96f074c685667aa10cc6430021316b0d'
+  account_sid = #api id
+  auth_token = #api_token
   client = Client(account_sid, auth_token)
-  number = +918356088944
+  number = #phonenumber
   ab_ID = int(input('Enter your unique ticket id that is your login ID: '))
   val = (ab_ID,)
   passenger_name = 'select p_name from passenger where passenger.p_id=%s'
